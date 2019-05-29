@@ -84,8 +84,8 @@ a {
     align-items: center;
     justify-content: center;
 }
-.pikachu {
-    width: 15em;
+.gitImg {
+    width: 10em;
 }
 .name {
     padding: 0px;
@@ -99,6 +99,14 @@ a {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 
+}
+/** paragraph in about page **/
+.bodyPar{
+    font-size: 3em;
+    color: black;
+    word-wrap: break-word;
+    display: flex;
+    margin: auto;
 }
 
 .coverImg {
