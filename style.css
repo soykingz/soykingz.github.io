@@ -87,6 +87,10 @@ a {
 .gitImg {
     width: 10em;
 }
+.gitIcon :hover {
+    -webkit-animation: shake 1.5s;
+    animation: shake 1.5s;
+}
 .name {
     padding: 0px;
     list-style: none;
